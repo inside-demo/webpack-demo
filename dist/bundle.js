@@ -45,6 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint linebreak-style: [2, "windows"] */
+	/* global document */
 	'use strict';
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -75,6 +76,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
+	/* eslint linebreak-style: [2, "windows"] */
 	'use strict';
 	Object.defineProperty(exports, '__esModule', {
 		value: true
@@ -19699,6 +19701,8 @@
 /* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/* eslint linebreak-style: [2, "windows"] */
+	/* eslint react/prop-types: 0 */
 	'use strict';
 	Object.defineProperty(exports, '__esModule', {
 		value: true
