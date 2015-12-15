@@ -1,4 +1,5 @@
 /* eslint linebreak-style: [2, "windows"] */
+/* global document */
 'use strict';
 import Mymodule from './Mymodule';
 import React from 'react';
