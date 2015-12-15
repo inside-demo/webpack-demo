@@ -10,5 +10,3 @@ let a = new Mymodule({test: 1});
 console.log(a.options.test);
 
 ReactDOM.render(<Photo src={require('./123.jpg')} />, document.getElementById('app'));
-
-

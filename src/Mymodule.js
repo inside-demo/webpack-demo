@@ -1,3 +1,4 @@
+/* eslint linebreak-style: [2, "windows"] */
 'use strict';
 class Plugin {
 
