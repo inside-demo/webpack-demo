@@ -10,11 +10,11 @@ gulp.task('xo', () => {
 });
 
 gulp.task('bundler', () => {
-    gulp.src('./src/app.js')
+    gulp.src('./src/app.jsx')
       .pipe(webpack({
 		module: {
 			loaders: [{
-				test: /\.js$/,
+				test: /\.js|\.jsx$/,
 				loader: 'babel-loader'
 			},{
 				test: /\.css$/,
