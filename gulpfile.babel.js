@@ -1,7 +1,5 @@
 import gulp from 'gulp';
-//import webpack from 'gulp-webpack';
 import webpack from 'webpack-stream';
-import xo from 'gulp-xo';
 
 gulp.task('bundler', () => {
     gulp.src('./src/app.jsx')
