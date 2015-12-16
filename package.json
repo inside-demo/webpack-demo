@@ -1,33 +1,36 @@
 {
-  "name": "test-webpack",
+  "name": "test-local-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "xo ./src/*.js* ./test/*.js && ava",
+    "build": "webpack ./src/app.jsx ./dist/bundle.js --config webpack.config.js"
+  },
   "xo": {
     "extends": [
       "xo",
       "xo-react"
     ]
   },
-  "scripts": {
-    "test": "xo ./src/*.js* ./test/*.js && ava"
-  },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "ava": "^0.8.0",
-    "babel-core": "^5.8.34",
-    "babel-loader": "^5.4.0",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
     "css-loader": "^0.23.0",
     "eslint-config-xo": "^0.9.0",
     "eslint-config-xo-react": "^0.3.0",
     "eslint-plugin-react": "^3.11.3",
     "file-loader": "^0.8.5",
-    "gulp": "^3.9.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "style-loader": "^0.13.0",
-    "webpack-stream": "^3.1.0",
-    "xo": "^0.12.0"
+    "webpack": "^1.12.9",
+    "xo": "^0.12.1"
   }
 }

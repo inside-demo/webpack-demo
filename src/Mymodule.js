@@ -1,6 +1,6 @@
 /* eslint linebreak-style: [2, "windows"] */
 'use strict';
-class Plugin {
+class mymodule {
 
 	constructor(options) {
 		this.options = options;
@@ -11,5 +11,4 @@ class Plugin {
 		console.log(this.options);
 	}
 }
-
-export default Plugin;
+export default mymodule;
