@@ -7,7 +7,10 @@ module.exports = {
   		},
   		{
   			test: /\.(js|jsx)$/,
-  			loader: 'babel?presets[]=es2015&presets[]=react'
+  			loader: 'babel',
+        query: {
+          stage: 2
+        }
   		},{
 			test: /\.jpg$/,
 			loader: 'file-loader'
