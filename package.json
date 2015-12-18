@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "xo ./src/*.js* ./test/*.js && ava",
-    "build": "webpack ./src/app.jsx ./dist/bundle.js --config webpack.config.js"
+    "build": "webpack ./src/app.jsx ./dist/bundle.js"
   },
   "xo": {
     "extends": [
