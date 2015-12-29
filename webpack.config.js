@@ -7,10 +7,7 @@ module.exports = {
   		},
   		{
   			test: /\.(js|jsx)$/,
-  			loader: 'babel',
-        query: {
-          stage: 2
-        }
+  			loader: 'babel'
   		},{
 			test: /\.jpg$/,
 			loader: 'file-loader'
