@@ -1,4 +1,8 @@
 ## [1.0.0] - 29-12-2015
+### Change
+- update ava ti v0.9.1
+
+## [1.0.0] - 29-12-2015
 ### Added
 - changelog
 
