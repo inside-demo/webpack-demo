@@ -1,3 +1,12 @@
+## [1.0.1] - 11-01-2016
+### Added
+- coveralls
+- nyc 
+- travis
+
+### Change
+- gitignore
+
 ## [1.0.0] - 05-01-2016
 ### Change
 - update ava to v0.9.1
