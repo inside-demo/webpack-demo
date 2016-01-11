@@ -1,4 +1,3 @@
-/* eslint linebreak-style: [2, "windows"] */
 /* global document */
 import Plugin from './mymodule.js';
 import React from 'react';

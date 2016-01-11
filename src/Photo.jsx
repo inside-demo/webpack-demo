@@ -1,4 +1,3 @@
-/* eslint linebreak-style: [2, "windows"] */
 /* eslint react/prop-types: 0 */
 'use strict';
 require('./reset.css');

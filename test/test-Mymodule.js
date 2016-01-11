@@ -1,4 +1,3 @@
-/* eslint linebreak-style: [2, "windows"] */
 import test from 'ava';
 import 'babel-core/register';
 import Plugin from '../src/mymodule.js';
