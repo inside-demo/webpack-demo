@@ -5,7 +5,8 @@
 - [x] xo cli 
 - [x] ava cli 
 - [x] webpack cli
-- [ ] coveralls
+- [x] coveralls
+- [x] travis
 - [ ] ![vue-loader](https://github.com/vuejs/vue-loader)
 - [ ] ~~babel-istanbul~~
 - [ ] [testing](https://github.com/vuejs/vueify-example/blob/master/test/unit/a.spec.js#L23-L43) vue component with ava 
