@@ -1,3 +1,8 @@
+## [0.0.4] - 12-01-2016
+### Change
+- example us export
+- RegExp js[x]
+
 ## [0.0.3] - 12-01-2016
 ### Added
 - babel-register
