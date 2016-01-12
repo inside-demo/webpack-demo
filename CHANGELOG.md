@@ -1,3 +1,10 @@
+## [1.0.2] - 12-01-2016
+### Added
+- .babelrc
+
+### Fixed
+- Fixed errors in ava and build
+
 ## [1.0.1] - 11-01-2016
 ### Added
 - coveralls
