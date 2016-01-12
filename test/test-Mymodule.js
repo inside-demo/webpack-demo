@@ -1,5 +1,4 @@
 import test from 'ava';
-import 'babel-core/register';
 import Plugin from '../src/mymodule.js';
 
 test('test my module', t => {
