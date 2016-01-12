@@ -2,7 +2,7 @@
 'use strict';
 require('./reset.css');
 import React from 'react';
-class Photo extends React.Component {
+export default class Photo extends React.Component {
 
 	constructor() {
 		super();
@@ -21,4 +21,3 @@ class Photo extends React.Component {
 		return <img src={this.props.src} onClick={this.handleLike.bind(this)} className={this.state.like ? 'hide' : 'show'} />;
 	}
 }
-export default Photo;
