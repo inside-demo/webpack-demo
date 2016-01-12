@@ -1,3 +1,15 @@
+## [1.0.3] - 12-01-2016
+### Added
+- babel-register
+- config babel in package.json
+
+### Change
+- test ava, add --require babel-register
+
+### Removed
+- Import babel-core in test files
+- .babelrc
+
 ## [1.0.2] - 12-01-2016
 ### Added
 - .babelrc
