@@ -1,6 +1,6 @@
 {
-  "name": "test-local-webpack",
-  "version": "1.0.3",
+  "name": "test-webpack",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
