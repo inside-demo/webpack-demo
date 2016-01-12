@@ -6,7 +6,7 @@ module.exports = {
   			loader: 'style-loader!css-loader'
   		},
   		{
-  			test: /\.(js|jsx)$/,
+  			test: /\.js[x]?$/,
   			loader: 'babel'
   		},{
 			test: /\.jpg$/,
