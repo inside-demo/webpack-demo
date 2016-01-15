@@ -1,3 +1,8 @@
+## [0.0.5] - 15-01-2016
+### Change
+- Update ava to v0.10.1
+- Remove ava config from run line to package.json
+
 ## [0.0.4] - 12-01-2016
 ### Change
 - example us export
