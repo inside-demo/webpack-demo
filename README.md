@@ -2,7 +2,7 @@
 [![Build Status](https://img.shields.io/travis/GitScrum/test-webpack.svg?style=flat-square)](https://travis-ci.org/GitScrum/test-webpack)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/test-webpack.svg?style=flat-square)](https://coveralls.io/r/GitScrum/test-webpack)[![devDependency Status](https://david-dm.org/gitscrum/test-webpack
 /dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/test-webpack#info=devDependencies)
 
-**us:**
+**used:**
 
 - [x] react 
 - [x] xo cli 
