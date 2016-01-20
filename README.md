@@ -4,14 +4,14 @@
 
 **used:**
 
-- [x] react-loader 
+- [x] react 
 - [x] xo cli 
 - [x] ava cli 
 - [x] webpack cli
 - [x] coveralls
 - [x] travis
 - [ ] ![vue-loader](https://github.com/vuejs/vue-loader)
-- [ ] Angular[2]-loader
+- [ ] angular2
 - [ ] ~~babel-istanbul~~
 - [ ] [testing](https://github.com/vuejs/vueify-example/blob/master/test/unit/a.spec.js#L23-L43) vue component with ava 
 - [ ] testing react component with ava
