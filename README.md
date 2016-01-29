@@ -11,16 +11,21 @@
 - [ ] posthtml (processor)
 - [ ] postcss (processor)
 
-**TDD**
-- [x] ava cli 
-- [x] coveralls
-- [x] travis
-
 **Lint**
 - [x] xo cli
 
 **Builder**
 - [x] webpack cli
+
+**Code coverage tool**
+- [x] coveralls
+- [x] nyc
+
+**Test runer**
+- [x] ava cli 
+
+**Test service**
+- [x] travis
 
 **Testing**
 - [ ] [testing](https://github.com/vuejs/vueify-example/blob/master/test/unit/a.spec.js#L23-L43) vue component with ava 
