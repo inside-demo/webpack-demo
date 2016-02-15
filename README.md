@@ -13,6 +13,7 @@
 
 **Lint**
 - [x] xo cli
+- [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
 
 **Builder**
 - [x] webpack cli
