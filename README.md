@@ -5,14 +5,15 @@
 ### used:
 
 **Lib**
-- [x] react (MVC)
-- [ ] ![vue](https://github.com/vuejs/vue-loader) (MVVM)
-- [ ] angular2 (MVW)
-- [ ] posthtml (processor)
-- [ ] postcss (processor)
+- [x] react-loader (MVC)
+- [ ] ![vue-loader](https://github.com/vuejs/vue-loader) (MVVM)
+- [ ] angular2-loader (MVW)
+- [ ] posthtml-loader (processor)
+- [ ] postcss-loader (processor)
 
 **Lint**
 - [x] xo cli
+- [ ] xo-loader
 - [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
 
 **Builder**
