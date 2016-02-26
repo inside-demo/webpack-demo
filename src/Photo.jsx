@@ -10,6 +10,8 @@ export default class Photo extends React.Component {
 		this.state = {
 			like: false
 		};
+
+		this.handleLike = this.handleLike.bind(this);
 	}
 
 	handleLike() {
