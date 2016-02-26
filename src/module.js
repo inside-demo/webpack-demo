@@ -1,13 +1,12 @@
 'use strict';
-class module {
-
-	constructor(options) {
-		this.options = options;
-		this.init();
+export default class mymodule {
+	constructor(opt) {
+		this.opt = Object.assign({}, opt);
 	}
-
-	init() {
-		console.log(this.options);
+	get options() {
+		return this.opt;
+	}
+	set options(val) {
+		this.opt[val] = val;
 	}
 }
-export default module;

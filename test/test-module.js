@@ -1,6 +1,14 @@
+'use strict';
 import test from 'ava';
-import Plugin from '../src/module';
+import Module from '../src/module';
 
-test('test my module', t => {
-	t.same(1, (new Plugin({test: 1})).options.test);
+test('test my module get', t => {
+	const module = new Module({'test-webpack': 'test-webpack'});
+	t.same('test-webpack', module.options['test-webpack']);
+});
+
+test('test my module set', t => {
+	let module = new Module({'test-webpack': true});
+	module.options = 'test-webpack';
+	t.same('test-webpack', module.options['test-webpack']);
 });
