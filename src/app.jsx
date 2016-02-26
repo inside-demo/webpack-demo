@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import Photo from './photo.jsx';
 
 let module = new Module({'test-webpack': true});
-module.options('test-webpack');
+module.options = 'test-webpack';
 
 console.log(module.options['test-webpack']);
 
