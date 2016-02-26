@@ -1,5 +1,5 @@
 /* global document */
-import Plugin from './mymodule.js';
+import Plugin from './module.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Photo from './Photo.jsx';

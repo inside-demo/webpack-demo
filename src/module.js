@@ -1,5 +1,5 @@
 'use strict';
-class mymodule {
+class module {
 
 	constructor(options) {
 		this.options = options;
@@ -10,4 +10,4 @@ class mymodule {
 		console.log(this.options);
 	}
 }
-export default mymodule;
+export default module;
