@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo && nyc ava",
+    "test": "xo && testen -- ava && nyc ava",
     "build": "webpack ./src/app.jsx ./dist/bundle.js"
   },
   "xo": {
@@ -42,6 +42,7 @@
     "react": "^0.15.0-alpha.1",
     "react-dom": "^0.15.0-alpha.1",
     "style-loader": "^0.13.0",
+    "testen": "^0.1.7",
     "webpack": "^2.1.0-beta.4",
     "xo": "^0.12.1"
   }
