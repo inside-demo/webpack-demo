@@ -18,6 +18,6 @@ export default class Photo extends React.Component {
 		});
 	}
 	render() {
-		return <img src={this.props.src} onClick={this.handleLike.bind(this)} className={this.state.like ? 'hide' : 'show'} />;
+		return <img src={this.props.src} onClick={this.handleLike} className={this.state.like ? 'hide' : 'show'}/>;
 	}
 }
