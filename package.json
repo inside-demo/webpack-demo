@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "xo && nyc ava",
     "build": "webpack ./src/app.jsx ./dist/bundle.js"
   },
