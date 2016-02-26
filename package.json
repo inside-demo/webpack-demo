@@ -14,7 +14,7 @@
   },
   "babel": {
     "presets": [
-      "es2015",
+      "es2015-auto",
       "react"
     ]
   },
@@ -29,7 +29,7 @@
   "devDependencies": {
     "ava": "^0.12.0",
     "babel-loader": "^6.2.3",
-    "babel-preset-es2015": "^6.5.0-1",
+    "babel-preset-es2015-auto": "^1.0.1",
     "babel-preset-react": "^6.5.0-1",
     "babel-register": "^6.5.2",
     "coveralls": "^2.11.6",
