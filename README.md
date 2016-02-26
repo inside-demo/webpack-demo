@@ -17,7 +17,7 @@
 - [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
 
 **Builder**
-- [x] webpack cli
+- [x] webpack 2 cli
 
 **Code coverage tool**
 - [x] coveralls
@@ -25,6 +25,7 @@
 
 **Test runer**
 - [x] ava cli 
+- [x] testent cli (not used nvm)
 
 **Test service**
 - [x] travis
