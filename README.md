@@ -26,7 +26,7 @@
 
 **Test runer**
 - [x] ava cli 
-- [x] testent cli (not used nvm)
+- [x] testent cli (need nvm)
 
 **Test service**
 - [x] travis
