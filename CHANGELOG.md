@@ -12,6 +12,8 @@
 - Rename name mymodule to module and test-mymodule to test-module 
 - Change path with mymodule to module
 - Update example module and test for updated module
+- Update run testen param
+- Update Readme, need nvm for testen
 
 
 ### Removed
