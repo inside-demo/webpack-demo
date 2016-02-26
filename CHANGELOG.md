@@ -1,3 +1,22 @@
+## [0.0.6] - 26-02-2016
+### Added
+- Added eslint in devDep, need for eslint-config-xo-react
+
+### Change
+- Update #25, devDep
+- Update #28, migrate to webpack2
+- Update run test param for xo
+- Update #22, remove run code coverage to travis config
+- Rename name mymodule to module and test-mymodule to test-module 
+- Change path with mymodule to module
+- Update example module and test for updated module
+
+### Removed
+- Remove eslint-config-xo from devDep, installed as a dependency
+- Remove xo extend from xo config, not need
+
+### Fixed
+
 ## [0.0.5] - 15-01-2016
 ### Change
 - Update ava to v0.10.1
