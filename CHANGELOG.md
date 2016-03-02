@@ -1,4 +1,8 @@
-## [0.0.6] - 26-02-2016
+## [0.0.7] - 02-02-2016
+### Change
+- Change #37, preset-2015 to preset-node5
+
+## [0.0.6] - 26-01-2016
 ### Added
 - Added eslint in devDep, need for eslint-config-xo-react
 - Added #29, [testen](https://github.com/egoist/testen)
