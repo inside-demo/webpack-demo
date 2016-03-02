@@ -3,6 +3,9 @@
   "version": "0.0.7",
   "description": "",
   "main": "index.js",
+  "engines" : { 
+    "node" : ">=5.6.0"
+  },
   "scripts": {
     "test": "xo && nyc ava",
     "testen": "testen -- ava",
