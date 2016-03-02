@@ -1,6 +1,6 @@
 {
   "name": "test-webpack",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "babel": {
     "presets": [
-      "es2015-auto",
+      "node5",
       "react"
     ]
   },
@@ -33,7 +33,7 @@
   "devDependencies": {
     "ava": "^0.12.0",
     "babel-loader": "^6.2.3",
-    "babel-preset-es2015-auto": "^1.0.1",
+    "babel-preset-node5": "^10.7.0",
     "babel-preset-react": "^6.5.0-1",
     "babel-register": "^6.5.2",
     "coveralls": "^2.11.6",
