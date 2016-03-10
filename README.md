@@ -1,7 +1,6 @@
 # test webpack 2
 ### NOT SUPPORT NODE < 5
-[![Build Status](https://img.shields.io/travis/GitScrum/test-webpack.svg?style=flat-square)](https://travis-ci.org/GitScrum/test-webpack)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/test-webpack.svg?style=flat-square)](https://coveralls.io/r/GitScrum/test-webpack)[![devDependency Status](https://david-dm.org/gitscrum/test-webpack
-/dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/test-webpack#info=devDependencies)
+[![Travis Build Status](https://img.shields.io/travis/GitScrum/test-webpack.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/test-webpack)[![Appveyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/test-webpack.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/test-webpack)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/test-webpack.svg?style=flat-square)](https://coveralls.io/r/GitScrum/test-webpack)[![devDependency Status](https://david-dm.org/gitscrum/test-webpack/dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/test-webpack#info=devDependencies)
 
 ### used:
 
@@ -30,6 +29,7 @@
 
 **Test service**
 - [x] travis
+- [x] appveyor
 
 **Testing**
 - [ ] [testing](https://github.com/vuejs/vueify-example/blob/master/test/unit/a.spec.js#L23-L43) vue component with ava 
