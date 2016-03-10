@@ -1,3 +1,11 @@
+## [0.0.8] - 10-03-2016
+### Added 
+- Added #39, appveyor badge in README, 
+- Added #39, configfile in project
+
+### Change
+- Update #38, devDep
+
 ## [0.0.7] - 02-02-2016
 ### Change
 - Change #37, preset-2015 to preset-node5
