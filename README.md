@@ -27,14 +27,10 @@
 - [x] ava cli 
 - [x] testent cli (need nvm)
 
-**Test service**
+**Continuous Integration**
 - [x] travis
 - [x] appveyor
 
 **Testing**
 - [ ] [testing](https://github.com/vuejs/vueify-example/blob/master/test/unit/a.spec.js#L23-L43) vue component with ava 
 - [ ] [testing](https://www.npmjs.com/package/react-addons-test-utils) react component with ava
-
-
-
-
