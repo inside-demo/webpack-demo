@@ -13,7 +13,7 @@
 
 **Lint**
 - [x] xo cli
-- [ ] xo-loader
+- [x] xo-loader
 - [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
 
 **Builder**
