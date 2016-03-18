@@ -1,3 +1,11 @@
+## [0.0.9] - 10-03-2016
+### Added
+- Added more node version in .travis.yml
+- Added #34, xo-loader
+
+### Change
+- Update #38, devDep
+
 ## [0.0.8] - 10-03-2016
 ### Added 
 - Added #39, appveyor badge in README, 
