@@ -1,3 +1,7 @@
+## [0.0.10] - 29-03-2016
+### Added
+- Added #24, native webpack watcher to runer task
+
 ## [0.0.9] - 10-03-2016
 ### Added
 - Added more node version in .travis.yml
