@@ -9,7 +9,8 @@
   "scripts": {
     "test": "xo && nyc ava",
     "testen": "testen -- ava",
-    "build": "webpack ./src/app.jsx ./dist/bundle.js"
+    "build": "webpack ./src/app.jsx ./dist/bundle.js",
+    "watch": "webpack --watch ./src/app.jsx ./dist/bundle.js"
   },
   "testen": {
     "node": [
