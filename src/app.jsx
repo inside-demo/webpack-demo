@@ -1,8 +1,8 @@
 /* global document */
 'use strict';
-import Module from './module.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Module from './module.js';
 import Photo from './photo.jsx';
 
 let module = new Module({'test-webpack': true});
