@@ -10,9 +10,10 @@
 - [ ] angular2-loader (MVW)
 - [ ] posthtml-loader (processor)
 - [ ] postcss-loader (processor)
+- [ ] css-loader wich modules
 
 **Lint**
-- [x] eslint cli
+- [x] eslint-cli
 - [x] eslint-loader
 - [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
 
