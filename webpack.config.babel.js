@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	module: {
 		preLoaders: [
 			{
@@ -14,7 +14,8 @@ module.exports = {
 			},
 			{
 				test: /\.js[x]?$/,
-				loader: 'babel'
+				loader: 'babel',
+				exclude: /node_modules/
 			},
 			{
 				test: /\.jpg$/,
