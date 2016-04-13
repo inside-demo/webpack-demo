@@ -11,7 +11,7 @@
     "testen": "testen -- ava",
     "build": "webpack ./src/app.jsx ./dist/bundle.js",
     "watch": "webpack --watch ./src/app.jsx ./dist/bundle.js",
-    "update": "updtr"
+    "update": "updtr && ava-codemods --force"
   },
   "testen": {
     "node": [
@@ -41,6 +41,7 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.14.0",
+    "ava-codemods": "^0.2.1",
     "babel-loader": "^6.2.4",
     "babel-preset-node5": "^11.0.1",
     "babel-preset-react": "^6.5.0-1",
