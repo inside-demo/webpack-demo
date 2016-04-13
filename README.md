@@ -1,4 +1,4 @@
-# test webpack 2
+# Demo webpack 2.1.0-beta.5
 ### NOT SUPPORT NODE < 5
 [![Travis Build Status](https://img.shields.io/travis/GitScrum/webpack-complex-demo.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/webpack-complex-demo)[![Appveyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/webpack-complex-demo.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/webpack-complex-demo)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/webpack-complex-demo.svg?style=flat-square)](https://coveralls.io/r/GitScrum/webpack - complex - mo)[![devDependency Status](https://david-dm.org/gitscrum/webpack-complex-demo/dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/webpack-complex-demo#info=devDependencies)
 
@@ -12,8 +12,8 @@
 - [ ] postcss-loader (processor)
 
 **Lint**
-- [x] xo cli
-- [x] xo-loader
+- [x] eslint cli
+- [x] eslint-loader
 - [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
 
 **Builder**
