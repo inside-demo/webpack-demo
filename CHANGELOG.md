@@ -1,3 +1,18 @@
+## [0.0.11] - 13-04-2016
+### Added
+- Added #47, ava-codemods
+- Added #48 babel-plugin-transform-runtime
+
+### Change
+- Update #43, .editorconfig
+- Update devDep
+- ava-codemods update my test
+- Change #50, xo to eslint
+- Migrate webpack config to es6
+
+### Remove
+- updatr, hands control
+
 ## [0.0.10] - 29-03-2016
 ### Added
 - Added #24, native webpack watcher to runer task
