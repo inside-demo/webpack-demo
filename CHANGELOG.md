@@ -1,3 +1,18 @@
+## [0.0.12] - 28-04-2016
+### Added
+- Added updtr
+- Added #61, eslint-formatter-pretty
+- Added #58, eslint-plugin-xo
+- Added #55, eslint-plugin-ava
+
+### Change
+- Rename #60, to webpack-demo
+- Update #63, devDep
+- Update #62, travis and appveyor config, add old and 6 node version
+- Update #59, optimize webpack config
+- Rename Photo.jsx => photo.jsx
+- Update #52, first update config babel from restore support old browser
+
 ## [0.0.11] - 13-04-2016
 ### Added
 - Added #47, ava-codemods

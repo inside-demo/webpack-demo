@@ -1,4 +1,22 @@
+import webpack from 'webpack';
+
 export default {
+	devtool: 'eval',
+	context: __dirname + '/src',
+	entry: {
+	  app: './app.jsx'
+	},
+	output: {
+	    path: __dirname + '/dist',
+	    filename: '[name].bundle.js'
+	},
+	plugins: [
+	  new webpack.DefinePlugin({
+	    'process.env': {
+	      'NODE_ENV': JSON.stringify('production')
+	     }
+	  })
+	],
 	module: {
 		preLoaders: [
 			{
