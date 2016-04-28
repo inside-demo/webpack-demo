@@ -11,7 +11,7 @@
     "testen": "testen -- ava",
     "build": "webpack ./src/app.jsx ./dist/bundle.js",
     "watch": "webpack --watch ./src/app.jsx ./dist/bundle.js",
-    "update": "ava-codemods --force"
+    "update": "updtr && ava-codemods --force"
   },
   "testen": {
     "node": [
@@ -67,6 +67,7 @@
     "react-dom": "^15.0.1",
     "style-loader": "^0.13.1",
     "testen": "^1.5.0",
+    "updtr": "^0.1.10",
     "webpack": "^2.1.0-beta.5"
   }
 }
