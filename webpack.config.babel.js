@@ -17,6 +17,9 @@ export default {
 	     }
 	  })
 	],
+	resolve: {
+	   extensions: ['', '.js', '.jsx']
+	},
 	module: {
 		preLoaders: [
 			{
