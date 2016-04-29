@@ -30,22 +30,31 @@
     ],
     "plugins": [
       "xo",
+      "ava",
       "react"
     ]
   },
   "babel": {
     "env": {
       "node4": {
-        "presets": ["es2015-node4"]
+        "presets": [
+          "es2015-node4"
+        ]
       },
       "node5": {
-        "presets": ["es2015-node5"]
+        "presets": [
+          "es2015-node5"
+        ]
       },
       "node6": {
-        "presets": ["es2015-node6"]
+        "presets": [
+          "es2015-node6"
+        ]
       },
       "development": {
-        "presets": ["es2015"]
+        "presets": [
+          "es2015"
+        ]
       }
     },
     "presets": [
