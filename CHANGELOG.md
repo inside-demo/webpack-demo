@@ -1,3 +1,10 @@
+## [0.0.13] - 29-04-2016
+### Change
+- Update #65, webpack config
+
+### Fixed
+- Fixed #66, eslint report error
+
 ## [0.0.12] - 28-04-2016
 ### Added
 - Added updtr
