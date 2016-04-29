@@ -1,3 +1,12 @@
+## [0.0.13] - 29-04-2016
+### Change
+- Update #65, webpack config
+- Rename build to app.build and change path in test html
+
+### Fixed
+- Fixed #66, eslint report error
+- Fixed path, it was not resolved
+
 ## [0.0.12] - 28-04-2016
 ### Added
 - Added updtr

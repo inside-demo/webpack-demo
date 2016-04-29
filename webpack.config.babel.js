@@ -1,13 +1,14 @@
 import webpack from 'webpack';
+import path from 'path';
 
 export default {
 	devtool: 'eval',
-	context: __dirname + '/src',
+	context: path.resolve(__dirname + '/src'),
 	entry: {
 	  app: './app.jsx'
 	},
 	output: {
-	    path: __dirname + '/dist',
+	    path: path.resolve(__dirname + '/dist'),
 	    filename: '[name].bundle.js'
 	},
 	plugins: [
@@ -17,6 +18,9 @@ export default {
 	     }
 	  })
 	],
+	resolve: {
+	   extensions: ['', '.js', '.jsx']
+	},
 	module: {
 		preLoaders: [
 			{
@@ -28,7 +32,8 @@ export default {
 		loaders: [
 			{
 				test: /\.css$/,
-				loader: 'style!css'
+				loader: 'style!css',
+				exclude: /node_modules/
 			},
 			{
 				test: /\.js[x]?$/,
@@ -37,7 +42,8 @@ export default {
 			},
 			{
 				test: /\.jpg$/,
-				loader: 'file'
+				loader: 'file',
+				exclude: /node_modules/
 			}
 		]
 	}
