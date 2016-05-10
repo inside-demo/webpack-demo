@@ -15,6 +15,12 @@ export default class Photo extends React.Component {
 	}
 
 	handleLike() {
+		System.import("./module.js").then(module => {
+			console.log(module);
+		}).catch(err => {
+			console.log(err);
+		});
+
 		this.setState({
 			like: !this.state.like
 		});
