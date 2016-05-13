@@ -2,6 +2,11 @@
 ### Added
 - Added #69, example System default support
 
+### Change
+- Update devDep
+
+### Fixed
+- Fixed linter error report
 
 ## [0.0.13] - 29-04-2016
 ### Change
