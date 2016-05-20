@@ -10,8 +10,9 @@ img {
 	transition: .5s ease;
 	transform: scale(1);
 	opacity: 1;
+	will-change: auto;
 }
 .hide {
-	transform: scale(0);
-	opacity: 0;
+	transform: scale(0.5);
+	opacity: 0.5;
 }

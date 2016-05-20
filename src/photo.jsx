@@ -2,30 +2,20 @@
 'use strict';
 require('./reset.css');
 import React from 'react';
-export default class Photo extends React.Component {
 
-	constructor() {
-		super();
+const Photo = React.createClass({
+	propTypes: {
+		image: React.PropTypes.object,
+		onClick: React.PropTypes.func
+	},
 
-		this.state = {
-			like: false
-		};
+	handleClick() {
+		this.props.onClick();
+	},
 
-		this.handleLike = this.handleLike.bind(this);
-	}
-
-	handleLike() {
-		System.import('./module.js').then(module => {
-			console.log(module);
-		}).catch(err => {
-			console.log(err);
-		});
-
-		this.setState({
-			like: !this.state.like
-		});
-	}
 	render() {
-		return <img src={this.props.src} onClick={this.handleLike} className={this.state.like ? 'hide' : 'show'}/>;
+		return <img src={this.props.src} onClick={this.handleClick} className={this.props.like ? 'hide' : 'show'}/>;
 	}
-}
+});
+
+export default Photo;

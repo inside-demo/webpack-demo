@@ -8,7 +8,7 @@ import useSheet from 'react-jss';
 
 const styles = {
 	form: {
-		position: 'absolute',
+		position: 'fixed',
 		top: 0,
 		right: 0,
 		padding: '10px',
@@ -18,6 +18,20 @@ const styles = {
 
 @useSheet(styles)
 export default class Form extends Component {
+
+	constructor() {
+		super();
+
+		this.handleChange = this.handleChange.bind(this);
+	}
+
+	propTypes: {
+		onChange: React.PropTypes.func
+	}
+
+	handleChange(event) {
+		this.props.onChange(event);
+	}
 
 	handleSubmit(event) {
 		fetch('http://google.ru', {
@@ -32,7 +46,7 @@ export default class Form extends Component {
 
 		return (
 			<form name="forms" onSubmit={this.handleSubmit} className={classes.form}>
-				<input type="file"/>
+				<input type="file" onChange={this.handleChange}/>
 				<input type="submit" value="send"/>
 			</form>
 		);
