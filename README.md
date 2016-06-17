@@ -9,7 +9,7 @@
 - [ ] angular2-loader (MVW)
 - [ ] posthtml-loader (processor)
 - [ ] postcss-loader (processor)
-- [ ] css-loader wich modules
+- [x] css-loader wich modules
 - [x] jss
 
 **Lint**
