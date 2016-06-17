@@ -1,6 +1,6 @@
 /* eslint react/prop-types: 0 */
 'use strict';
-require('./reset.css');
+import reset from './reset.css';
 import React from 'react';
 
 const Photo = React.createClass({
@@ -14,7 +14,7 @@ const Photo = React.createClass({
 	},
 
 	render() {
-		return <img src={this.props.src} onClick={this.handleClick} className={this.props.like ? 'hide' : 'show'}/>;
+		return <img src={this.props.src} onClick={this.handleClick} className={[this.props.like ? reset.hide : reset.show, reset.img].join(' ')}/>;
 	}
 });
 

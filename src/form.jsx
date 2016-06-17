@@ -5,18 +5,19 @@
 'use strict';
 import React, {Component} from 'react';
 import useSheet from 'react-jss';
+import styles from './styles.css';
 
-const styles = {
+const jss = {
 	form: {
 		position: 'fixed',
 		top: 0,
 		right: 0,
-		padding: '10px',
+		height: '40px',
 		'background-color': 'rgba(255,255,255, .2)'
 	}
 };
 
-@useSheet(styles)
+@useSheet(jss)
 export default class Form extends Component {
 
 	constructor() {
@@ -26,7 +27,8 @@ export default class Form extends Component {
 	}
 
 	propTypes: {
-		onChange: React.PropTypes.func
+		onChange: React.PropTypes.func,
+		filename: React.PropTypes.string
 	}
 
 	handleChange(event) {
@@ -46,8 +48,11 @@ export default class Form extends Component {
 
 		return (
 			<form name="forms" onSubmit={this.handleSubmit} className={classes.form}>
-				<input type="file" onChange={this.handleChange}/>
-				<input type="submit" value="send"/>
+				<label className={styles.files} htmlFor="files">
+					{this.props.filename}
+					<input id="files" name="files" type="file" onChange={this.handleChange}/>
+				</label>
+				<input type="submit" value="send" className={styles.submit}/>
 			</form>
 		);
 	}

@@ -1,3 +1,27 @@
+## [0.0.16] - 17-06-2016
+### Added
+- Added #54. css modules
+- Added #35, stylelint
+- Added #76, resolve modules dir
+
+### Change
+- Change #78, babel preset
+- Update devDep
+
+### Fixed 
+- Fixed stylelint report error
+
+## [0.0.15] - 16-05-2016
+### Added
+- Added #74, babel react optimize
+- Added #73, eslint config jss
+
+### Fixed
+- Fixed #72, broken last commit
+
+### Remove
+- Remove #71, babel not used presets
+
 ## [0.0.14] - 10-05-2016
 ### Added
 - Added #69, example System default support
