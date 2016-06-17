@@ -13,18 +13,19 @@ export default {
 		filename: '[name].bundle.js'
 	},
 	plugins: [
-		new webpack.DefinePlugin({
-			'process.env': {
-				'NODE_ENV': JSON.stringify('production')
-			}
-		}),
 		new styleLintPlugin({
 			configFile: './node_modules/stylelint-config-standard/index.js',
 			files: '**/*.css',
 			failOnError: false
+		}),
+		new webpack.DefinePlugin({
+			'process.env': {
+				'NODE_ENV': JSON.stringify('production')
+			}
 		})
 	],
 	resolve: {
+		modulesDirectories: ['src', 'node_modules'],
 		extensions: ['', '.js', '.jsx']
 	},
 	module: {
