@@ -1,5 +1,4 @@
-# Demo webpack 2.1.0-beta.7
-### NOT SUPPORT NODE < 4
+# Demo webpack 2.1.0-beta.13
 [![Travis Build Status](https://img.shields.io/travis/GitScrum/webpack-demo.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/webpack-demo)[![Appveyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/webpack-demo.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/webpack-demo)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/webpack-demo.svg?style=flat-square)](https://coveralls.io/r/GitScrum/webpack - complex - mo)[![devDependency Status](https://david-dm.org/gitscrum/webpack-demo/dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/webpack-demo#info=devDependencies)
 
 ### used:
@@ -16,7 +15,7 @@
 **Lint**
 - [x] eslint-cli
 - [x] eslint-loader
-- [ ] [stylelint-loader](https://github.com/adrianhall/stylelint-loader)
+- [x] [stylelint](https://github.com/vieron/stylelint-webpack-plugin)
 
 **Builder**
 - [x] webpack 2 cli
