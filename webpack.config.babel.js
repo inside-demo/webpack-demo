@@ -18,10 +18,18 @@ export default {
 			files: '**/*.css',
 			failOnError: false
 		}),
-		new webpack.DefinePlugin({
+		/* new webpack.DefinePlugin({
 			'process.env': {
 				'NODE_ENV': JSON.stringify('production')
 			}
+		}), */
+		new webpack.optimize.UglifyJsPlugin({
+			compress: {
+				warnings: false
+			}
+		}),
+		new webpack.optimize.CommonsChunkPlugin({
+			name: "common"
 		})
 	],
 	resolve: {
