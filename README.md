@@ -11,6 +11,7 @@
 - [ ] postcss-loader (processor)
 - [x] css-loader wich modules
 - [x] jss
+- [ ] webp-loader
 
 **Lint**
 - [x] eslint-cli
