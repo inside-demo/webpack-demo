@@ -12,6 +12,7 @@
 - [x] css-loader wich modules
 - [x] jss
 - [ ] webp-loader
+- [ ] html-loader
 
 **Lint**
 - [x] eslint-cli
