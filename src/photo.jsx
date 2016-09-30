@@ -5,7 +5,7 @@ import React from 'react';
 
 const Photo = React.createClass({
 	propTypes: {
-		image: React.PropTypes.object,
+		src: React.PropTypes.string,
 		onClick: React.PropTypes.func
 	},
 

@@ -18,33 +18,27 @@ export default {
 			files: '**/*.css',
 			failOnError: false
 		}),
-		/* new webpack.DefinePlugin({
-			'process.env': {
-				'NODE_ENV': JSON.stringify('production')
-			}
-		}), */
 		new webpack.optimize.UglifyJsPlugin({
 			compress: {
 				warnings: false
 			}
 		}),
 		new webpack.optimize.CommonsChunkPlugin({
-			name: "common"
+			name: "vendor"
 		})
 	],
-	resolve: {
-		modulesDirectories: ['src', 'node_modules'],
-		extensions: ['', '.js', '.jsx']
+	resolveLoader: {
+		modules: [path.resolve(__dirname, "src"), 'node_modules'],
+		extensions: ['.js', '.jsx']
 	},
 	module: {
-		preLoaders: [
+		loaders: [
 			{
+				enforce: 'pre',
 				test: /\.js[x]?$/,
 				loader: 'eslint',
 				exclude: /node_modules/
-			}
-		],
-		loaders: [
+			},
 			{
 				test: /\.css$/,
 				loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
