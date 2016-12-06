@@ -13,6 +13,8 @@
 - [x] jss
 - [ ] webp-loader
 - [ ] html-loader
+- [ ] [styled-jsx](https://github.com/zeit/styled-jsx)
+
 
 **Lint**
 - [x] eslint-cli
