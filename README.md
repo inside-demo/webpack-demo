@@ -5,7 +5,7 @@
 
 **Lib**
 - [x] react-loader (MVC)
-- [ ] ![vue-loader](https://github.com/vuejs/vue-loader) (MVVM)
+- [ ] [vue-loader](https://github.com/vuejs/vue-loader) (MVVM)
 - [ ] angular2-loader (MVW)
 - [ ] posthtml-loader (processor)
 - [ ] postcss-loader (processor)
@@ -14,6 +14,7 @@
 - [ ] webp-loader
 - [ ] html-loader
 - [ ] [styled-jsx](https://github.com/zeit/styled-jsx)
+- [ ] [styletron](https://github.com/rtsao/styletron) 
 
 
 **Lint**
