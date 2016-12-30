@@ -6,7 +6,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "eslint --format=node_modules/eslint-formatter-pretty ./{src,test}/**/*.{js,jsx} && nyc ava",
+    "test": "eslint ./{src,test}/**/*.{js,jsx} && nyc ava",
     "testen": "testen -- ava",
     "build": "webpack",
     "watch": "webpack --watch",
@@ -20,6 +20,7 @@
     ]
   },
   "eslintConfig": {
+    "format": "node_modules/eslint-formatter-pretty",
     "parser": "babel-eslint",
     "extends": [
       "xo",
