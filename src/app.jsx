@@ -24,7 +24,7 @@ const App = React.createClass({
 	},
 
 	handleLike() {
-		System.import('./module.js').then(module => {
+		import('./module.js').then(module => {
 			console.log(module);
 		}).catch(err => {
 			console.log(err);
