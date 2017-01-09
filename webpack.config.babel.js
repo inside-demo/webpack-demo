@@ -4,12 +4,12 @@ import styleLintPlugin from 'stylelint-webpack-plugin';
 
 export default {
 	devtool: 'eval',
-	context: path.resolve(__dirname + '/src'),
+	context: path.resolve(__dirname + '/src/'),
 	entry: {
 		app: './app.jsx'
 	},
 	output: {
-		path: path.resolve(__dirname + '/dist'),
+		path: path.resolve(__dirname + '/docs/'),
 		filename: '[name].bundle.js'
 	},
 	plugins: [
@@ -36,22 +36,22 @@ export default {
 			{
 				enforce: 'pre',
 				test: /\.js[x]?$/,
-				loader: 'eslint',
+				loader: 'eslint-loader',
 				exclude: /node_modules/
 			},
 			{
 				test: /\.css$/,
-				loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+				loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
 				exclude: /node_modules/
 			},
 			{
 				test: /\.js[x]?$/,
-				loader: 'babel',
+				loader: 'babel-loader',
 				exclude: /node_modules/
 			},
 			{
 				test: /\.jpg$/,
-				loader: 'file',
+				loader: 'file-loader',
 				exclude: /node_modules/
 			}
 		]
