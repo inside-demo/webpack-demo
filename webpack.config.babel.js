@@ -18,10 +18,11 @@ export default {
 			files: '**/*.css',
 			failOnError: false
 		}),
+		new webpack.DefinePlugin({
+			'process.env.NODE_ENV': JSON.stringify('production')
+		}),
 		new webpack.optimize.UglifyJsPlugin({
-			compress: {
-				warnings: false
-			}
+			compress: {warnings: true}
 		}),
 		new webpack.optimize.CommonsChunkPlugin({
 			name: "vendor"
@@ -29,30 +30,38 @@ export default {
 	],
 	resolveLoader: {
 		modules: [path.resolve(__dirname, "src"), 'node_modules'],
-		extensions: ['.js', '.jsx']
+		extensions: ['.js', '.jsx', '.css', '.jpg']
 	},
 	module: {
-		loaders: [
+		rules: [
 			{
 				enforce: 'pre',
 				test: /\.js[x]?$/,
-				loader: 'eslint-loader',
-				exclude: /node_modules/
+				loader: 'eslint-loader'
 			},
 			{
 				test: /\.css$/,
-				loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
-				exclude: /node_modules/
+				use: [
+					{
+						loader: 'style-loader'
+					},
+					{
+						loader: 'css-loader',
+						options: {
+							modules: true,
+							importLoaders: 1,
+							localIdentName: '[name]__[local]___[hash:base64:5]'
+						}
+					}
+				]
 			},
 			{
 				test: /\.js[x]?$/,
-				loader: 'babel-loader',
-				exclude: /node_modules/
+				loader: 'babel-loader'
 			},
 			{
 				test: /\.jpg$/,
-				loader: 'file-loader',
-				exclude: /node_modules/
+				loader: 'file-loader'
 			}
 		]
 	}

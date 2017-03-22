@@ -19,16 +19,15 @@ const jss = {
 
 @useSheet(jss)
 export default class Form extends Component {
+	propTypes: {
+		onChange: React.PropTypes.func,
+		filename: React.PropTypes.string
+	}
 
 	constructor() {
 		super();
 
 		this.handleChange = this.handleChange.bind(this);
-	}
-
-	propTypes: {
-		onChange: React.PropTypes.func,
-		filename: React.PropTypes.string
 	}
 
 	handleChange(event) {
@@ -44,10 +43,10 @@ export default class Form extends Component {
 	}
 
 	render() {
-		const {classes} = this.props.sheet;
+		const {classes} = this.props;
 
 		return (
-			<form name="forms" onSubmit={this.handleSubmit} className={classes.form}>
+			<form name="forms" className={classes.form} onSubmit={this.handleSubmit}>
 				<label className={styles.files} htmlFor="files">
 					{this.props.filename}
 					<input id="files" name="files" type="file" onChange={this.handleChange}/>

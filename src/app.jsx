@@ -3,14 +3,8 @@
 'use strict';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Module from './module.js';
 import Photo from './photo.jsx';
 import Form from './form.jsx';
-
-let module = new Module({'test-webpack': true});
-module.options = 'test-webpack';
-
-console.log(module.options['test-webpack']);
 
 const App = React.createClass({
 	getInitialState() {

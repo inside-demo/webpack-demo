@@ -1,5 +1,5 @@
-# Demo webpack 2.2.0-rc.3
-[![Travis Build Status](https://img.shields.io/travis/GitScrum/webpack-demo.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/webpack-demo)[![Appveyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/webpack-complex-demo.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/webpack-complex-demo)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/webpack-demo.svg?style=flat-square)](https://coveralls.io/r/GitScrum/webpack - complex - mo)[![devDependency Status](https://david-dm.org/gitscrum/webpack-demo/dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/webpack-demo#info=devDependencies)
+# Demo webpack 2.3.0
+[![Travis Build Status](https://img.shields.io/travis/inside-demo/webpack-demo.svg?style=flat-square&label=unix)](https://travis-ci.org/inside-demo/webpack-demo)[![Appveyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/webpack-complex-demo.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/inside-demo/webpack-complex-demo)[![node](https://img.shields.io/node/v/post-load-plugins.svg?maxAge=2592000&style=flat-square)]()[![Coveralls status](https://img.shields.io/coveralls/inside-demo/webpack-demo.svg?style=flat-square)](https://coveralls.io/r/inside-demo/webpack-demo)[![devDependency Status](https://david-dm.org/gitscrum/webpack-demo/dev-status.svg?style=flat-square)](https://david-dm.org/gitscrum/webpack-demo#info=devDependencies)
 
 ### used:
 
